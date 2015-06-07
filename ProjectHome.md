@@ -1,0 +1,3 @@
+Various projects using a combination of camshift and kalman filters for tracking.
+
+The camShiftKalmanLBP.zip uses a more sophisticated approach that uses a 3D back projection method which includes texture (local binary patterns), Hue and Saturation with an adaptive histogram approach. Project is based on OpenCV version 1.1 along with custom Kalman filter class and adaptive histograms. It includes logic to track an object through occlusions and reacquire the target based on the kalman filter projection of where it should be located.
